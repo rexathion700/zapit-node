@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script defer src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.11.js"></script>
+    <title>Zap!t</title>
+</head>
+<body>
+    <header>
+        <div class="flex-row top-nav">
+            <a class="logo" href="#">Zap!t</a>
+            
+        </div>
+    </header>
+    <main class="form-main">
+        <form class="log-in-form" method="post" action="/sign-up">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email">
+            <label for="password">Password</label>
+            <input name="password" id="password" type="password">
+
+            <div class="log-in-btn-wrapper">
+                <button type="submit" class="log-in-button">Sign up</button>
+                <div class="form-seperator"></div>
+                <a class="create-acc-link" href="/log-in" >Log in instead</a>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+
+</html>
