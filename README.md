@@ -2,7 +2,9 @@
 
 Live on : https://zapit.fly.dev
 
-Requires [zapit-token-server](https://github.com/rexathion700/zapit-token-server/) to be running to work
+Demo creds :
+Email : demo@demo.com
+Password : 123456
 
 ```
 git clone https://github.com/rexathion700/zapit-node
